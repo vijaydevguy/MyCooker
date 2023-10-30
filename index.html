@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8ca04;">
+    <div class="container">
+        <img src="./img/restaurant-logo.png" alt="logo" class="logo">
+        <a class="navbar-brand" href="#home">My Cooker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" style="color: #fff;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#menu" style="color: #fff;">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer" style="color: #fff;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#our-team" style="color: #fff;">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" style="color: #fff;">Review</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reservation" style="color: #fff;">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- arrow button -->
+<a href=""><button class="round-button">
+    <span>&#9650;</span>
+</button></a> 
+
+
+
+    <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" id="home" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/img1.jpg" class="d-block w-100" alt="Image 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Welcome to Restaurant</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/img2.jpg" class="d-block w-100" alt="Image 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Quality Food and Service</h3>
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <img src="./img/Beverages.webp" class="d-block w-100" alt="Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Beverages</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/hotel.jpg" class="d-block w-100" alt="Image 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>24/7 Service</h3>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <!-- About Us Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Welcome to our restaurant. We are dedicated to providing the finest dining experience.</p>
+                    <p>With over 15+ years of experience, we have a team of 50+ master chefs who ensure the quality of our food.</p>
+                    <a href="#" class="btn btn-primary" style="background-color: #f8ca04;">Read More</a>
+                </div>
+                <div class="col-md-3 right-side">
+                    <!-- Add images here -->
+                    <img src="./img/white-meals.jpg" alt="rice" class="white-meals">
+                    <img src="./img/briyani.jpg" alt="rice">
+                    
+                </div>
+                <div class="col-md-3 right-side">
+                    <!-- Add images here -->
+                   
+                    <img src="./img/curd-rice.jpg" alt="rice">
+                    <img src="./img/noodles.jpg" alt="rice">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="service-section" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="service-card">
+                        <img src="./img/img1.jpg" alt="Service 1">
+                        <p>Master Chef</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-card">
+                        <img src="./img/img2.jpg" alt="Service 2">
+                        <p>Quality Food</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-card">
+                        <img src="./img/img3.jpg" alt="Service 3">
+                        <p>Online Order</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="service-card">
+                        <img src="./img/img4.jpg" alt="Service 4">
+                        <p>24/7 Service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Menu Section -->
+<div id="menu" class="container mt-5" id="menu">
+    <h2 class="text-center">Menu</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4>Briyani</h4>
+                <p class="price">₹299</p>
+                <p class="description">Delicious briyani cooked with aromatic spices and tender meat or vegetables.</p>
+                <img src="./img/briyani.jpg" alt="Briyani" class="menu-image">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4>Noodles</h4>
+                <p class="price">₹199</p>
+                <p class="description">Stir-fried noodles with a variety of fresh vegetables and your choice of protein.</p>
+                <img src="./img/noodles.jpg" alt="Noodles" class="menu-image">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4>Veg-Briyani</h4>
+                <p class="price">₹149</p>
+                <p class="description">Vegetarian briyani with a blend of aromatic spices and seasonal vegetables.</p>
+                <img src="./img/veg-rice.jpg" alt="Veg-Briyani" class="menu-image">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4>Curd Rice</h4>
+                <p class="price">₹49</p>
+                <p class="description">Creamy and tangy curd rice served with a tempering of mustard seeds and curry leaves.</p>
+                <img src="./img/curd-rice.jpg" alt="Curd Rice" class="menu-image">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="menu-item">
+                <h4>White Rice</h4>
+                <p class="price">₹69</p>
+                <p class="description">Steamed white rice served with a choice of delectable side dishes.</p>
+                <img src="./img/white-meals.jpg" alt="White Rice" class="menu-image">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Reservation Form Section -->
+<div id="reservation" class="container mt-5" id="reservation">
+    <h2 class="text-center">Book a Table Online</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="yourName">Your Name</label>
+                    <input type="text" class="form-control" id="yourName" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input type="time" class="form-control" id="time">
+                </div>
+                <div class="form-group">
+                    <label for="noOfTables">Number of Tables</label>
+                    <input type="number" class="form-control" id="noOfTables" placeholder="Enter the number of tables">
+                </div>
+                <div class="form-group">
+                    <label for="specialRequest">Special Request</label>
+                    <textarea class="form-control" id="specialRequest" rows="3" placeholder="Any special requests or additional information"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="background-color: #f8ca04;">Book Now</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="./img/reservation-image.jpg" alt="Reservation Image" class="reservation-image">
+        </div>
+    </div>
+</div>
+
+
+   <!-- Our Team Section -->
+<div id="our-team" class="container mt-5" id="our-team">
+    <h2 class="text-center">Our Team</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="chef">
+                <img src="./img/chefs.webp" alt="Chef 1" class="chef-image">
+                <h4>Chef John</h4>
+                <p class="chef-description">With over 15 years of culinary experience, Chef John brings a blend of flavors to every dish he creates.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="chef">
+                <img src="./img/chefs.webp" alt="Chef 2" class="chef-image">
+                <h4>Chef Emily</h4>
+                <p class="chef-description">Chef Emily is passionate about creating unique and mouthwatering dishes for our guests.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="chef">
+                <img src="./img/chefs.webp" alt="Chef 3" class="chef-image">
+                <h4>Chef Michael</h4>
+                <p class="chef-description">Chef Michael's dedication to culinary perfection shines through in every meal he prepares.</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="chef">
+                <img src="./img/chefs.webp" alt="Chef 4" class="chef-image">
+                <h4>Chef Sarah</h4>
+                <p class="chef-description">Chef Sarah is known for her creative approach to cooking and her love for experimenting with flavors.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Reservation</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact</h4>
+                    <p>123 Main St, City, Country</p>
+                    <p>Phone: +1 234-567-8900</p>
+                    <p>Email: info@restaurant.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates.</p>
+                    <form>
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn btn-light">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3
